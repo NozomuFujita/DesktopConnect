@@ -1,0 +1,19 @@
+{
+    "name": "DT_Presenter",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b8ab46842f8dea449aaf8ee35d1d2091",
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:817a170ac2b6e924e90aee3d734c49f6"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
