@@ -1,0 +1,618 @@
+{
+   "Clip": "Angry",
+   "FPS": 60,
+   "Message": "",
+   "Bubble": "Needle",
+   "TotalFrame": 240,
+   "DefaultChange": {
+      "Target": "TotalFrame",
+      "Min": 240,
+      "Max": 200
+   },
+   "PoseChange": [
+      {
+         "Index": 0,
+         "Basic": [],
+         "Posture": [
+            {
+               "Target": "Posture.RightLeg.UpperLeg.FrontBack",
+               "Min": 0.4,
+               "Max": 0.9
+            },
+            {
+               "Target": "Posture.RightLeg.LowerLeg.Stretch",
+               "Min": 0.97,
+               "Max": 0.1
+            },
+            {
+               "Target": "Posture.LeftArm.Arm.DownUp",
+               "Min": -0.2,
+               "Max": 0.45
+            },
+            {
+               "Target": "Posture.LeftArm.Forearm.Stretch",
+               "Min": 0.0,
+               "Max": 0.65
+            },
+            {
+               "Target": "Posture.RightArm.Arm.DownUp",
+               "Min": -0.1,
+               "Max": 0.5
+            },
+            {
+               "Target": "Posture.RightArm.Forearm.Stretch",
+               "Min": 0.0,
+               "Max": 0.5
+            }
+         ],
+         "Finger": [],
+         "Facial": []
+      }
+   ],
+   "Poses": [
+      {
+         "Index": 0,
+         "Proportion": 0,
+         "Interpolation": {
+            "a": 8,
+            "b": -0.5
+         },
+         "Position": {
+            "x": -0.0017999999690800906,
+            "y": 0.9793000221252441,
+            "z": -0.08720000088214874
+         },
+         "Rotation": {
+            "x": 0.0003000000142492354,
+            "y": -0.9919999837875366,
+            "z": 0.12600000202655793,
+            "w": -0.00139999995008111
+         },
+         "Posture": {
+            "Body": {
+               "Spine": {
+                  "FrontBack": -0.3517000079154968,
+                  "LeftRight": 0.0,
+                  "Twist_LeftRight": 0.0
+               },
+               "Chest": {
+                  "FrontBack": 0.19499999284744264,
+                  "LeftRight": 0.0,
+                  "Twist_LeftRight": 0.0
+               },
+               "UpperChest": {
+                  "FrontBack": 0.0,
+                  "LeftRight": 0.0,
+                  "Twist_LeftRight": 0.0
+               }
+            },
+            "Head": {
+               "Neck": {
+                  "NodDownUp": 0.489300012588501,
+                  "TiltLeftRight": 0.0,
+                  "TurnLeftRight": 0.0
+               },
+               "Head": {
+                  "NodDownUp": -0.07720000296831131,
+                  "TiltLeftRight": 0.0,
+                  "TurnLeftRight": 0.0
+               }
+            },
+            "Face": {
+               "LeftEye": {
+                  "DownUp": 0.0,
+                  "InOut": 0.0
+               },
+               "RightEye": {
+                  "DownUp": 0.0,
+                  "InOut": 0.0
+               },
+               "Jaw": {
+                  "Close": 0.0,
+                  "LeftRight": 0.0
+               }
+            },
+            "LeftLeg": {
+               "UpperLeg": {
+                  "FrontBack": 0.40059998631477358,
+                  "InOut": 0.03519999980926514,
+                  "TwistInOut": -0.3714999854564667
+               },
+               "LowerLeg": {
+                  "Stretch": 0.9789000153541565,
+                  "TwistInOut": 0.28349998593330386
+               },
+               "Foot": {
+                  "UpDown": -0.0494999997317791,
+                  "TwistInOut": 0.03739999979734421
+               },
+               "Toe": {
+                  "UpDown": 0.0
+               }
+            },
+            "RightLeg": {
+               "UpperLeg": {
+                  "FrontBack": 0.40059998631477358,
+                  "InOut": 0.03519999980926514,
+                  "TwistInOut": -0.37139999866485598
+               },
+               "LowerLeg": {
+                  "Stretch": 0.9789000153541565,
+                  "TwistInOut": 0.28349998593330386
+               },
+               "Foot": {
+                  "UpDown": -0.0494999997317791,
+                  "TwistInOut": 0.03739999979734421
+               },
+               "Toe": {
+                  "UpDown": 0.0
+               }
+            },
+            "LeftArm": {
+               "Shoulder": {
+                  "DownUp": 0.5536999702453613,
+                  "FrontBack": 0.557200014591217
+               },
+               "Arm": {
+                  "DownUp": -0.21040000021457673,
+                  "FrontBack": -0.05689999833703041,
+                  "TwistInOut": -0.7657999992370606
+               },
+               "Forearm": {
+                  "Stretch": 0.2872999906539917,
+                  "TwistInOut": 0.0957999974489212
+               },
+               "Hand": {
+                  "DownUp": -0.051500000059604648,
+                  "InOut": -0.1046999990940094
+               },
+               "Finger": "Fist"
+            },
+            "RightArm": {
+               "Shoulder": {
+                  "DownUp": 0.49790000915527346,
+                  "FrontBack": 0.49630001187324526
+               },
+               "Arm": {
+                  "DownUp": -0.14810000360012055,
+                  "FrontBack": -0.059700001031160358,
+                  "TwistInOut": -0.732200026512146
+               },
+               "Forearm": {
+                  "Stretch": 0.2847000062465668,
+                  "TwistInOut": 0.11050000041723252
+               },
+               "Hand": {
+                  "DownUp": -0.12559999525547028,
+                  "InOut": -0.19850000739097596
+               },
+               "Finger": "Fist"
+            }
+         },
+         "Facial": "Angry"
+      },
+      {
+         "Index": 1,
+         "Proportion": 0.1,
+         "Interpolation": {
+            "a": 3,
+            "b": 0
+         },
+         "Position": {
+            "x": -0.000699999975040555,
+            "y": 0.9599999785423279,
+            "z": -0.11789999902248383
+         },
+         "Rotation": {
+            "x": 0.0,
+            "y": -0.9765999913215637,
+            "z": 0.2151000052690506,
+            "w": -0.00039999998989515007
+         },
+         "Posture": {
+            "Body": {
+               "Spine": {
+                  "FrontBack": -0.6259999871253967,
+                  "LeftRight": 0.0,
+                  "Twist_LeftRight": 0.0
+               },
+               "Chest": {
+                  "FrontBack": 0.03590000048279762,
+                  "LeftRight": 0.0,
+                  "Twist_LeftRight": 0.0
+               },
+               "UpperChest": {
+                  "FrontBack": 0.0,
+                  "LeftRight": 0.0,
+                  "Twist_LeftRight": 0.0
+               }
+            },
+            "Head": {
+               "Neck": {
+                  "NodDownUp": 0.489300012588501,
+                  "TiltLeftRight": 0.0,
+                  "TurnLeftRight": 0.0
+               },
+               "Head": {
+                  "NodDownUp": 0.10239999741315842,
+                  "TiltLeftRight": 0.0,
+                  "TurnLeftRight": 0.0
+               }
+            },
+            "Face": {
+               "LeftEye": {
+                  "DownUp": 0.0,
+                  "InOut": 0.0
+               },
+               "RightEye": {
+                  "DownUp": 0.0,
+                  "InOut": 0.0
+               },
+               "Jaw": {
+                  "Close": 0.0,
+                  "LeftRight": 0.0
+               }
+            },
+            "LeftLeg": {
+               "UpperLeg": {
+                  "FrontBack": 0.40059998631477358,
+                  "InOut": 0.03519999980926514,
+                  "TwistInOut": -0.3714999854564667
+               },
+               "LowerLeg": {
+                  "Stretch": 0.9789000153541565,
+                  "TwistInOut": 0.28349998593330386
+               },
+               "Foot": {
+                  "UpDown": -0.0494999997317791,
+                  "TwistInOut": 0.03739999979734421
+               },
+               "Toe": {
+                  "UpDown": 0.0
+               }
+            },
+            "RightLeg": {
+               "UpperLeg": {
+                  "FrontBack": 0.40059998631477358,
+                  "InOut": 0.03519999980926514,
+                  "TwistInOut": -0.37139999866485598
+               },
+               "LowerLeg": {
+                  "Stretch": 0.9789000153541565,
+                  "TwistInOut": 0.28349998593330386
+               },
+               "Foot": {
+                  "UpDown": -0.0494999997317791,
+                  "TwistInOut": 0.03739999979734421
+               },
+               "Toe": {
+                  "UpDown": 0.0
+               }
+            },
+            "LeftArm": {
+               "Shoulder": {
+                  "DownUp": 0.01979999989271164,
+                  "FrontBack": 0.027499999850988389
+               },
+               "Arm": {
+                  "DownUp": -0.35040000081062319,
+                  "FrontBack": -0.1679999977350235,
+                  "TwistInOut": -0.48590001463890078
+               },
+               "Forearm": {
+                  "Stretch": 0.9135000109672546,
+                  "TwistInOut": -0.11860000342130661
+               },
+               "Hand": {
+                  "DownUp": -0.08299999684095383,
+                  "InOut": -0.01979999989271164
+               },
+               "Finger": "Fist"
+            },
+            "RightArm": {
+               "Shoulder": {
+                  "DownUp": 0.010499999858438969,
+                  "FrontBack": 0.010900000110268593
+               },
+               "Arm": {
+                  "DownUp": -0.30469998717308047,
+                  "FrontBack": -0.1882999986410141,
+                  "TwistInOut": -0.4805999994277954
+               },
+               "Forearm": {
+                  "Stretch": 0.8998000025749207,
+                  "TwistInOut": -0.09950000047683716
+               },
+               "Hand": {
+                  "DownUp": -0.1460999995470047,
+                  "InOut": -0.08089999854564667
+               },
+               "Finger": "Fist"
+            }
+         },
+         "Facial": "Angry"
+      },
+      {
+         "Index": 2,
+         "Proportion": 0.5,
+         "Interpolation": {
+            "a": 3,
+            "b": 0
+         },
+         "Position": {
+            "x": -0.0007999999797903001,
+            "y": 0.9661999940872192,
+            "z": -0.10689999908208847
+         },
+         "Rotation": {
+            "x": 0.00009999999747378752,
+            "y": -0.983299970626831,
+            "z": 0.18199999630451203,
+            "w": -0.0013000000035390258
+         },
+         "Posture": {
+            "Body": {
+               "Spine": {
+                  "FrontBack": -0.5231000185012817,
+                  "LeftRight": 0.0,
+                  "Twist_LeftRight": 0.0
+               },
+               "Chest": {
+                  "FrontBack": -0.2749999970197678,
+                  "LeftRight": 0.0,
+                  "Twist_LeftRight": 0.0
+               },
+               "UpperChest": {
+                  "FrontBack": 0.0,
+                  "LeftRight": 0.0,
+                  "Twist_LeftRight": 0.0
+               }
+            },
+            "Head": {
+               "Neck": {
+                  "NodDownUp": 0.489300012588501,
+                  "TiltLeftRight": 0.0,
+                  "TurnLeftRight": 0.0
+               },
+               "Head": {
+                  "NodDownUp": -0.08429999649524689,
+                  "TiltLeftRight": 0.0,
+                  "TurnLeftRight": 0.0
+               }
+            },
+            "Face": {
+               "LeftEye": {
+                  "DownUp": 0.0,
+                  "InOut": 0.0
+               },
+               "RightEye": {
+                  "DownUp": 0.0,
+                  "InOut": 0.0
+               },
+               "Jaw": {
+                  "Close": 0.0,
+                  "LeftRight": 0.0
+               }
+            },
+            "LeftLeg": {
+               "UpperLeg": {
+                  "FrontBack": 0.40059998631477358,
+                  "InOut": 0.03519999980926514,
+                  "TwistInOut": -0.3714999854564667
+               },
+               "LowerLeg": {
+                  "Stretch": 0.9789000153541565,
+                  "TwistInOut": 0.28349998593330386
+               },
+               "Foot": {
+                  "UpDown": -0.0494999997317791,
+                  "TwistInOut": 0.03739999979734421
+               },
+               "Toe": {
+                  "UpDown": 0.0
+               }
+            },
+            "RightLeg": {
+               "UpperLeg": {
+                  "FrontBack": 0.40059998631477358,
+                  "InOut": 0.03519999980926514,
+                  "TwistInOut": -0.37139999866485598
+               },
+               "LowerLeg": {
+                  "Stretch": 0.9789000153541565,
+                  "TwistInOut": 0.28349998593330386
+               },
+               "Foot": {
+                  "UpDown": -0.0494999997317791,
+                  "TwistInOut": 0.03739999979734421
+               },
+               "Toe": {
+                  "UpDown": 0.0
+               }
+            },
+            "LeftArm": {
+               "Shoulder": {
+                  "DownUp": 0.07880000025033951,
+                  "FrontBack": 0.11720000207424164
+               },
+               "Arm": {
+                  "DownUp": -0.352400004863739,
+                  "FrontBack": -0.15150000154972077,
+                  "TwistInOut": -0.5986999869346619
+               },
+               "Forearm": {
+                  "Stretch": 0.8169999718666077,
+                  "TwistInOut": -0.014299999922513962
+               },
+               "Hand": {
+                  "DownUp": -0.0869000032544136,
+                  "InOut": 0.07000000029802323
+               },
+               "Finger": "Fist"
+            },
+            "RightArm": {
+               "Shoulder": {
+                  "DownUp": 0.04399999976158142,
+                  "FrontBack": 0.06210000067949295
+               },
+               "Arm": {
+                  "DownUp": -0.29760000109672549,
+                  "FrontBack": -0.16419999301433564,
+                  "TwistInOut": -0.5875999927520752
+               },
+               "Forearm": {
+                  "Stretch": 0.8030999898910523,
+                  "TwistInOut": -0.0010999999940395356
+               },
+               "Hand": {
+                  "DownUp": -0.14900000393390656,
+                  "InOut": 0.00930000003427267
+               },
+               "Finger": "Fist"
+            }
+         },
+         "Facial": "Angry"
+      },
+      {
+         "Index": 3,
+         "Proportion": 0.9,
+         "Interpolation": {
+            "a": 3,
+            "b": -0.2
+         },
+         "Position": {
+            "x": -0.000699999975040555,
+            "y": 0.9599999785423279,
+            "z": -0.11789999902248383
+         },
+         "Rotation": {
+            "x": 0.0,
+            "y": -0.9765999913215637,
+            "z": 0.2151000052690506,
+            "w": -0.00039999998989515007
+         },
+         "Posture": {
+            "Body": {
+               "Spine": {
+                  "FrontBack": -0.6259999871253967,
+                  "LeftRight": 0.0,
+                  "Twist_LeftRight": 0.0
+               },
+               "Chest": {
+                  "FrontBack": 0.03590000048279762,
+                  "LeftRight": 0.0,
+                  "Twist_LeftRight": 0.0
+               },
+               "UpperChest": {
+                  "FrontBack": 0.0,
+                  "LeftRight": 0.0,
+                  "Twist_LeftRight": 0.0
+               }
+            },
+            "Head": {
+               "Neck": {
+                  "NodDownUp": 0.489300012588501,
+                  "TiltLeftRight": 0.0,
+                  "TurnLeftRight": 0.0
+               },
+               "Head": {
+                  "NodDownUp": 0.10239999741315842,
+                  "TiltLeftRight": 0.0,
+                  "TurnLeftRight": 0.0
+               }
+            },
+            "Face": {
+               "LeftEye": {
+                  "DownUp": 0.0,
+                  "InOut": 0.0
+               },
+               "RightEye": {
+                  "DownUp": 0.0,
+                  "InOut": 0.0
+               },
+               "Jaw": {
+                  "Close": 0.0,
+                  "LeftRight": 0.0
+               }
+            },
+            "LeftLeg": {
+               "UpperLeg": {
+                  "FrontBack": 0.40059998631477358,
+                  "InOut": 0.03519999980926514,
+                  "TwistInOut": -0.3714999854564667
+               },
+               "LowerLeg": {
+                  "Stretch": 0.9789000153541565,
+                  "TwistInOut": 0.28349998593330386
+               },
+               "Foot": {
+                  "UpDown": -0.0494999997317791,
+                  "TwistInOut": 0.03739999979734421
+               },
+               "Toe": {
+                  "UpDown": 0.0
+               }
+            },
+            "RightLeg": {
+               "UpperLeg": {
+                  "FrontBack": 0.40059998631477358,
+                  "InOut": 0.03519999980926514,
+                  "TwistInOut": -0.37139999866485598
+               },
+               "LowerLeg": {
+                  "Stretch": 0.9789000153541565,
+                  "TwistInOut": 0.28349998593330386
+               },
+               "Foot": {
+                  "UpDown": -0.0494999997317791,
+                  "TwistInOut": 0.03739999979734421
+               },
+               "Toe": {
+                  "UpDown": 0.0
+               }
+            },
+            "LeftArm": {
+               "Shoulder": {
+                  "DownUp": 0.01979999989271164,
+                  "FrontBack": 0.027499999850988389
+               },
+               "Arm": {
+                  "DownUp": -0.35040000081062319,
+                  "FrontBack": -0.1679999977350235,
+                  "TwistInOut": -0.48590001463890078
+               },
+               "Forearm": {
+                  "Stretch": 0.9135000109672546,
+                  "TwistInOut": -0.11860000342130661
+               },
+               "Hand": {
+                  "DownUp": -0.08299999684095383,
+                  "InOut": -0.01979999989271164
+               },
+               "Finger": "Fist"
+            },
+            "RightArm": {
+               "Shoulder": {
+                  "DownUp": 0.010499999858438969,
+                  "FrontBack": 0.010900000110268593
+               },
+               "Arm": {
+                  "DownUp": -0.30469998717308047,
+                  "FrontBack": -0.1882999986410141,
+                  "TwistInOut": -0.4805999994277954
+               },
+               "Forearm": {
+                  "Stretch": 0.8998000025749207,
+                  "TwistInOut": -0.09950000047683716
+               },
+               "Hand": {
+                  "DownUp": -0.1460999995470047,
+                  "InOut": -0.08089999854564667
+               },
+               "Finger": "Fist"
+            }
+         },
+         "Facial": "Angry"
+      }
+   ]
+}
